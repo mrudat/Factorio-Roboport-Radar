@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 31. 3. 2019
+
+  Bugfixes:
+    - Makes inserters ignore radar, so you can still insert robots into roboports.
+
+-------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 28. 3. 2019
+
+  Bugfixes:
+    - Increased chart frequency to 1/3s, so chunks stay charted.
+
+-------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 28. 3. 2019
+
+  Major Features:
+    - Initial release
+
+-------------------------------------------------------------------------------
