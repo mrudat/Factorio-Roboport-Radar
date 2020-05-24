@@ -7,13 +7,15 @@ for _,roboport in pairs(data.raw["roboport"]) do
 
   local roboport_localised_name = roboport.localised_name or { "entity-name." .. roboport_name }
 
+  -- TODO roboport.energy_usage = roboport.energy_usage - 1W
+
   data:extend({
     {
       type = "radar",
       name = roboport_name .. "-radar",
       localised_name = { "entity-name.Roboport_Radar", roboport_localised_name },
       icon = "__base__/graphics/icons/radar.png", -- TODO a different icon
-      icon_size = 32,
+      icon_size = 64, icon_mipmaps = 4,
       order = 'd-f',
       max_health = 1,
       flags = {
