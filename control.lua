@@ -3,6 +3,7 @@ local Entity   = require '__stdlib__/stdlib/entity/entity'
 local Event    = require '__stdlib__/stdlib/event/event'
 local table    = require '__stdlib__/stdlib/utils/table'
 
+-- TODO supply filter to only be told about roboports
 Event.register(
   {
     defines.events.on_built_entity,
