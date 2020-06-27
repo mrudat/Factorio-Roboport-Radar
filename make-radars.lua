@@ -12,10 +12,13 @@ local radar_icons = icons_of(data.raw.radar.radar)
 
 local seen = {}
 
-function MakeRadar.make_radar(new_radars, roboport_name, roboport, _)
+function MakeRadar.make_radar(new_radars, roboport, roboport_name, _)
   if seen[roboport_name] then return end
 
   local construction_radius = roboport.construction_radius
+  if not construction_radius then
+    error("Construction radius not defined for " .. roboport_name)
+  end
   if construction_radius == 0 then return end
 
   local energy_source = roboport.energy_source

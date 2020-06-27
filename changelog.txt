@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2020-06-28
+
+  Bugfixes:
+    - Fix parameter order to work when HighlyDerivative is installed.
+    - Make sure to initialise roboport_to_radar
+
+---------------------------------------------------------------------------------------------------
 Version: 0.0.5
 Date: 2020-06-27
 

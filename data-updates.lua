@@ -8,7 +8,7 @@ else
   local new_things = {}
 
   for roboport_name,roboport in pairs(data.raw["roboport"]) do
-    make_radar(new_things, roboport_name, roboport, 'roboport')
+    make_radar(new_things, roboport, roboport_name, 'roboport')
   end
 
   data:extend(new_things)

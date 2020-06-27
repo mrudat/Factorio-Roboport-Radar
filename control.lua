@@ -97,6 +97,7 @@ local function on_init()
 end
 
 local function on_configuration_changed()
+  global.roboport_to_radar = global.roboport_to_radar or {}
   global._entity_data = nil -- Entity.get_data used to store stuff here
   index_prototypes_and_place_radars()
 
