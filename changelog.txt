@@ -1,11 +1,12 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.5
-Date: TBA
+Date: 2020-06-27
 
   Bugfixes:
     - Fixed the changelog.
   Changes:
     - Update to use event filters.
+    - Change naming scheme to reduce chance of name collision.
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.4

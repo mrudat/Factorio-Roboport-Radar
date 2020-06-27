@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"Lua.workspace.library": {
+			"C:/Progam Files/Factorio/data/core/lualib": true
+		}
+	}
+}
