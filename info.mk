@@ -1,2 +1,0 @@
-PACKAGE_NAME := Roboport_Radar
-VERSION_STRING := 0.0.5
