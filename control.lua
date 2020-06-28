@@ -138,7 +138,7 @@ register_events(
 register_events(
   {
     defines.events.script_raised_built,
-    defines.script_raised_revive
+    defines.events.script_raised_revive
   },
   function(event)
     add_radar(event.entity)
@@ -150,7 +150,7 @@ register_events(
     defines.events.on_entity_died,
     defines.events.on_robot_pre_mined,
     defines.events.on_player_mined_entity,
-    defines.script_raised_destroy
+    defines.events.script_raised_destroy
   },
   function(event)
     remove_radar(event.entity)
